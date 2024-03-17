@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.2rem;
+    background-color: #F7F7F7;
+}
+
+header {
+    background-color: rgb(19, 58, 1);
+    color: white;
+    height: 100px;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+form {
+    width: 500px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input,
+form select {
+    padding: 0.5rem 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+form>button {
+    cursor: pointer;
+    background-color: rgb(17, 39, 12);
+    color: white;
+    border: none;
+    padding: 0.5rem 0.8rem;
+}
+
+form>button:hover {
+    background-color: rgb(130, 238, 179);
+}
+
+ul {
+    list-style: none;
+    width: 500px;
+    margin: 2rem auto;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+.close {
+  font-size: 20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.close:hover {
+    color: tomato
+}
+
+#todo-list {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+b {
+    font-family: 'Noto Serif', serif;
+}
